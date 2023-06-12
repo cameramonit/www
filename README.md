@@ -13,6 +13,10 @@ reejstratory
 ### sluzb specjalnych
 
 
+### [Photogrammetry - Wikipedia](https://en.wikipedia.org/wiki/Photogrammetry)
+
+Photogrammetry is the science and technology of obtaining reliable information about physical objects and the environment through the process of recording, measuring and interpreting photographic images and patterns of electromagnetic radiant imagery and other phenomena.
+
 
 ## Prywatność
 
