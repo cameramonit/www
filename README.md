@@ -55,6 +55,19 @@ Zakres znaczeniowy pojęcia „informacja” powinien obejmować nie tylko znaki
 W wyroku z 28 czerwca 2019 roku (I OSK 2063/17) Naczelny Sąd Administracyjny wskazał, że brak możliwości powiązania numerów rejestracyjnych pojazdów, bez nadmiernego wysiłku i kosztów, z osobami fizycznymi, które dają się zidentyfikować, sprawia, że numer rejestracyjny pojazdu nie ma statusu danych osobowych. W dalszej części przeczytać można, że numer rejestracyjny ponieważ jest umieszczony na samochodzie, za zgodą właściciela pojazdu, sam w sobie jest ogólnie dostępny dla bliżej nieokreślonej liczby osób. Jednak nie oznacza to, że można go w sposób prosty powiązać z konkretną osobą. Wskazać bowiem należy, że często z tego samego pojazdu korzystają różne osoby. Powyższe niezbicie wskazuje, że nie jest możliwe, w sposób prosty i łatwy, powiązać numer rejestracyjny pojazdu z konkretną osobą – właściciela (lub posiadacza) pojazdu.
 
 
+
+## [Fotograf w przestrzeni publicznej. Migawki z Fotoprawa - Szeroki Kadr](https://www.szerokikadr.pl/poradnik/fotograf-w-przestrzeni-publicznej-migawki-z-fotoprawa)
+
+Czy sąsiad może robić zdjęcia mojej posesji?
+
+Obowiązujące w Polsce tzw. prawo panoramy, pozwala na fotografowanie i publikowanie zdjęć różnych obiektów (w tym obiektów prywatnych), które znajdują się w przestrzeni publicznej. Dotyczy to nawet tych, które w świetle prawa autorskiego mogą być uznane za utwory. Zamontowanie tabliczki „zakaz fotografowania” nie zmienia sytuacji w żaden sposób. Aby jednak robienie i upublicznianie takich zdjęć było zgodne z prawem, obiekty powinny być fotografowane z miejsc powszechnie dostępnych, a nie z terenu prywatnej posesji.
+
+
+
+## [Jakich miejsc nie wolno fotografować? - National Geographic](https://www.national-geographic.pl/artykul/wstawiasz-zdjecia-z-podrozy-sprawdz-czy-nie-lamiesz-prawa-oto-12-miejsc-ktorych-nie-wolno-fotografowac)
+
+
+
 ---
 
 + [edit](https://github.com/cameramonit/www/edit/main/README.md)
