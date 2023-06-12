@@ -48,6 +48,13 @@ Zatem przenosząc powyższe rozważania na grunt niniejszej sprawy, powiemy, co 
 Zakres znaczeniowy pojęcia „informacja” powinien obejmować nie tylko znaki językowe, lecz także inne okoliczności towarzyszące znakom językowym lub tylko informacje pozajęzykowe (A. Drozd, Ustawa, s. 41). Dane osobowe mogą więc przybierać różną formę, mogą to być: zdjęcia, filmy, zarejestrowane głosy (A. Mednis, Ochrona, s. 35), tzw. dane biometryczne, cechy źrenicy, linie papilarne, cechy twarzy, geometria ręki (A. Drozd, Ustawa, s. 41), komunikaty wyrażone i zapisane w jakikolwiek sposób, niezależnie od sposobu, zakresu i swobody ich udostępniania, jak i niezależnie od sposobu ich pozyskania (J. Barta, P. Fajgielski, R. Markiewicz, Ochrona, 2004, s. 370), pod warunkiem spełnienia dalszych wymogów zawartych w definicji z art. 6 OchrDanOsU.
 
 
+
+## [Zakaz fotografowania: kiedy obowiązuje, jakie są znaki i co wiedzieć?](https://www.znakowo.pl/blog/zakaz-fotografowania/)
+
+
+W wyroku z 28 czerwca 2019 roku (I OSK 2063/17) Naczelny Sąd Administracyjny wskazał, że brak możliwości powiązania numerów rejestracyjnych pojazdów, bez nadmiernego wysiłku i kosztów, z osobami fizycznymi, które dają się zidentyfikować, sprawia, że numer rejestracyjny pojazdu nie ma statusu danych osobowych. W dalszej części przeczytać można, że numer rejestracyjny ponieważ jest umieszczony na samochodzie, za zgodą właściciela pojazdu, sam w sobie jest ogólnie dostępny dla bliżej nieokreślonej liczby osób. Jednak nie oznacza to, że można go w sposób prosty powiązać z konkretną osobą. Wskazać bowiem należy, że często z tego samego pojazdu korzystają różne osoby. Powyższe niezbicie wskazuje, że nie jest możliwe, w sposób prosty i łatwy, powiązać numer rejestracyjny pojazdu z konkretną osobą – właściciela (lub posiadacza) pojazdu.
+
+
 ---
 
 + [edit](https://github.com/cameramonit/www/edit/main/README.md)
