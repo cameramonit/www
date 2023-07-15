@@ -39,6 +39,10 @@ oferujemy zaplecze merytoryczne i techniczne
 Photogrammetry is the science and technology of obtaining reliable information about physical objects and the environment through the process of recording, measuring and interpreting photographic images and patterns of electromagnetic radiant imagery and other phenomena.
 
 
+---
+
+# Informacje
+
 ## Prywatność
 
 ## [CZY MOŻNA NAGRYWAĆ POSESJĘ SĄSIADA BEZ JEGO WIEDZY? CZY PRAWIDŁOWE JEST ŻE OBRAZ Z KAMERY OBEJMUJE POSESJĘ SĄSIADA? | CKC SOLUTION Kancelaria Prawna Konrad Czaplicki](https://www.ckcsolution.pl/czy-mozna-nagrywac-posesje-sasiada-bez-jego-wiedzy-czy-prawidlowe-jest-ze-na-obraz-z-kamery-nachodzi-posesja-sasiada/)
