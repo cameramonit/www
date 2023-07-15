@@ -1,6 +1,6 @@
 # [cameraMonit.com](https://www.cameramonit.com/)
 
-![image](https://github.com/cameramonit/www/assets/5669657/8354dc49-0bd2-4f6e-abe4-7ebfefe16a7b)
+![image](https://github.com/cameramonit/www/assets/5669657/1c71e644-2dc9-4152-8ef3-7acb7bc97ef3)
 
 
 
