@@ -8,7 +8,7 @@ hardware + software, czyli embedded i edge computing
 w skrócie rejestrator video z detekcją obiektów z komunikacją głosową
 
 w ten sposób będę działał w niszy security 
-czyli tam gdzie nie ma zaufania dla reszty świata i mam dobrze płatnych klientów, bo tylko biedni/idioci/polski-rząd kupują chińszczyznę(Edited)
+czyli tam gdzie nie ma zaufania dla produktów z reszty świata
 
 Co istotne nie jest to prosty model, bo zawiera w sobie:
 1. sprzedaż sprzętu
