@@ -6,13 +6,17 @@
 
 ### dla instalatorow CCTV, systemow dozoru
 kamery
-reejstratory
+rejstratory
 
 
 ### dla ochrony
 
+Jesteśmy otwarci na kooperację, ułatwiamy wdrożenie systemów tele-informatycznych
 
-### sluzb specjalnych
+
+### slużb specjalnych
+
+oferujemy zaplecze merytoryczne i techniczne
 
 
 ### [Photogrammetry - Wikipedia](https://en.wikipedia.org/wiki/Photogrammetry)
