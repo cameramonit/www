@@ -1,11 +1,26 @@
 # [cameraMonit.com](https://www.cameramonit.com/)
 
-![image](https://github.com/cameramonit/www/assets/5669657/1c71e644-2dc9-4152-8ef3-7acb7bc97ef3)
+```
+Wyobraź sobie rejestrator video z detekcją obiektów sterowany głosowo.
+```
+
+Tak działa system skalowalnego monitoringu z setkami kamer w XXI wieku.
+
+## Co wyróżnia CameraMonit?
+
+W odróżnieniu od aktualnych systemów oferujemy komunikację głosową do sterowania całą siecią kamer i wybranymi w czasie rzeczysitom oraz dostęp do archiwalnych nagrań.
 
 
+![wersja prototypowa cameramonit.com](https://github.com/cameramonit/www/assets/5669657/1c71e644-2dc9-4152-8ef3-7acb7bc97ef3)
+wersja prototypowa cameramonit.com
+
+
+## Oferta 
 
 ### dla instalatorow CCTV, systemow dozoru
+
 kamery
+
 rejstratory
 
 
