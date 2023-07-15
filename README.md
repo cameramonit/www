@@ -1,23 +1,5 @@
 # www
 
-## Oferta:
-
-
-hardware + software, czyli embedded i edge computing
-
-w skrócie rejestrator video z detekcją obiektów z komunikacją głosową
-
-w ten sposób będę działał w niszy security 
-czyli tam gdzie nie ma zaufania dla produktów z reszty świata
-
-Co istotne nie jest to prosty model, bo zawiera w sobie:
-1. sprzedaż sprzętu
-2. montaż sprzętu
-3. sprzedaż licencji
-4. Roczna/miesięczna subskrypcja
-
-w ten sposób będę mógł dostosować do rynku i do potrzeb klientów
-
 
 
 ### dla instalatorow CCTV, systemow dozoru
