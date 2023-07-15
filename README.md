@@ -1,4 +1,4 @@
-# [cameraMonit.com](https://www.cameramonit.com/) - Rejestrator video z detekcją obiektów sterowany głosowo. 
+# [Camera Monit](https://www.cameramonit.com/) - rejestrator video z detekcją obiektów sterowany głosowo
 
 ```
 Wyobraź sobie rejestrator video z detekcją obiektów sterowany głosowo.
