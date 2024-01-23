@@ -6,6 +6,24 @@ Wyobraź sobie rejestrator video z detekcją obiektów sterowany głosowo.
 
 Tak działa system skalowalnego monitoringu z setkami kamer w XXI wieku.
 
+CamOS is a surveillance camera management app built on Media Server, empowering enterprises to establish private cloud camera solutions
+
++ [CamOS - Private cloud camera solution - Hackster.io](https://www.hackster.io/dmtan/camos-private-cloud-camera-solution-196a7e)
++ [ant-media/Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server/releases)
+
++ [Ant Media Server - Real-time Streaming Engine](https://antmedia.io/)
+
+Live Video Surveillance
+
+Embed IP camera streams into websites and mobile apps to broadcast video. AMS is compatible with ONVIF IP cameras with PTZ and Auto Discovery features.
+
+It offers direct data storage for new technology surveillance cameras, ensuring secure and easily accessible data through the cloud.
+It supports online viewing, playback, and camera management with user-friendly administrative features.
+Integration with various camera lines and recorders meeting the ONVIF connection standard optimizes cost efficiency, making it a versatile solution.
+Integrate the smart features based on video analytics solutions to support your business such as smart retail stores, smart gates, and smart traffic monitoring.
+
+
+
 ## Co wyróżnia CameraMonit?
 
 W odróżnieniu od aktualnych systemów oferujemy komunikację głosową do sterowania całą siecią kamer i wybranymi w czasie rzeczysitom oraz dostęp do archiwalnych nagrań.
