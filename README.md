@@ -1,5 +1,13 @@
 # [Camera Monit](https://www.cameramonit.com/) - rejestrator video z detekcją obiektów sterowany głosowo
 
++ [CameraMonit - Surveillance Integration](http://www.cameramonit.com)
++ [VoCo.Cam - Voice Controlled Camera](http://www.vococam.com)
++ [CameraMind - Detection and Notification](http://www.cameramind.com)
++ [Do.Camera - From Vision to Action](http://www.docamera.com)
+
+
+![obraz](https://github.com/cameramonit/www/assets/5669657/6ba03f60-11cc-45d3-adae-f5442bdd9864)
+  
 ```
 Wyobraź sobie rejestrator video z detekcją obiektów sterowany głosowo.
 ```
