@@ -66,7 +66,7 @@ Photogrammetry is the science and technology of obtaining reliable information a
 
 
 ---
-[info about pruivacy](PRIVACY.md)
+[info about privacy](PRIVACY.md)
 
 ---
 
