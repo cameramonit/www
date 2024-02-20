@@ -1,4 +1,7 @@
-# [Camera Monit](https://www.cameramonit.com/) - rejestrator video z detekcją obiektów sterowany głosowo
+# [Camera Monit](https://www.cameramonit.com/) - voice-controlled video recorder with object detection
+
+DE - sprachgesteuerter Videorecorder mit Objekterkennung
+PL- rejestrator video z detekcją obiektów sterowany głosowo
 
 + [CameraMonit - Surveillance Integration](http://www.cameramonit.com)
 + [VoCo.Cam - Voice Controlled Camera](http://www.vococam.com)
