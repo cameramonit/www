@@ -90,6 +90,18 @@ Wyobraź sobie rejestrator video z detekcją obiektów sterowany głosowo.
 
 Tak działa system skalowalnego monitoringu z setkami kamer w XXI wieku.
 
+Sterowanie i komunikacja z kamerą jest możliwa przez popularny komunikator:
++ signal
++ whatsapp
++ telegram
+  
+Asystent kamer będzie funckkjonował jak podczas rozmowy z osobą.
+Do dystopzycji jest chat tekstowy i głosowy oraz funkcja rozmowy video, gdzie będzie można wybrać kamerę którą chce się widzieć w czasie rzeczywistym.
+
+Uzytkownik może po prostu rozmawiać lub pisać z asystentem poprzez przez swój komunikator.
+Aktualnie asystent, jest dostepny dla komunikatora signal z uwagi na bezpieczeństwo, ale będzie dostępny obsługa komunikatorów: whatsapp, telegram na życzenie.
+
+
 
 ### Co wyróżnia CameraMonit?
 
