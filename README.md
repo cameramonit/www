@@ -86,8 +86,10 @@ Wir bieten inhaltliche und technische Unterstützung
 
 ## PL- rejestrator video z detekcją obiektów sterowany głosowo
 
-Wyobraź sobie rejestrator video z detekcją obiektów sterowany głosowo.
+Wielu myśli, że chatGpt to rewolucja ... a co jeśli wykorzystamy różne kanały komunikacji głosowe i video, asnychroniczne i synchroniczne np. w celu zarządzania infrastrukturą od monitoringu po smarthome, komputery
 
+
+Wyobraź sobie rejestrator video z detekcją obiektów sterowany głosowo.
 Tak działa system skalowalnego monitoringu z setkami kamer w XXI wieku.
 
 Sterowanie i komunikacja z kamerą jest możliwa przez popularny komunikator:
@@ -100,6 +102,7 @@ Do dystopzycji jest chat tekstowy i głosowy oraz funkcja rozmowy video, gdzie b
 
 Uzytkownik może po prostu rozmawiać lub pisać z asystentem poprzez przez swój komunikator.
 Aktualnie asystent, jest dostepny dla komunikatora signal z uwagi na bezpieczeństwo, ale będzie dostępny obsługa komunikatorów: whatsapp, telegram na życzenie.
+
 
 
 
