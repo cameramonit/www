@@ -178,6 +178,25 @@ Behavior analysis is a feature of IP cameras that can analyze and interpret the 
 
 
 
+## Coffee shop 
+
+This coffee shop uses AI to track the Productivity of Baristas and how much Time Customers are spending in the Shop.
+
+Neurospot barista pro tracks everything from how many coffees baristas make to how long customers linger at tables.
+
+- Tracks coffee output to monitor productivity and inventory.
+- Monitors how long customers stay to optimize table turnover and service.
+- Keeps tabs on table cleanliness in real-time for a hygienic environment.
+- Tracks staff activities to ensure focus on designated tasks.
+
+AI is going to be everywhere! Are you ready?
+
+All this will come at a great cost of privacy.
+
+
+
+
+
 ### [Photogrammetry - Wikipedia](https://en.wikipedia.org/wiki/Photogrammetry)
 
 Photogrammetry is the science and technology of obtaining reliable information about physical objects and the environment through the process of recording, measuring and interpreting photographic images and patterns of electromagnetic radiant imagery and other phenomena.
