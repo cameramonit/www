@@ -202,6 +202,23 @@ All this will come at a great cost of privacy.
 Photogrammetry is the science and technology of obtaining reliable information about physical objects and the environment through the process of recording, measuring and interpreting photographic images and patterns of electromagnetic radiant imagery and other phenomena.
 
 
+
+
+
+
+![image](https://github.com/cameramonit/www/assets/5669657/75e9af3e-67ec-4622-b365-57157bd99687)
+
+
+
+![image](https://github.com/cameramonit/www/assets/5669657/42fcce48-3463-4625-99ba-8a9459b5298e)
+
+
+
+Offer
+
+It provides free rolling 3-day cycled cloud storage that you can enjoy storage service without any subscription. And it provides a 30-day free trial of advanced features that include AI recognition, upgraded cloud memory, custom alert areas and etc, the advanced features starts at $2.99 per month after 30 days free trial. 
+
+
 ---
 [info about privacy](PRIVACY.md)
 
