@@ -1,0 +1,11 @@
+title: "Detekcja obiektów w systemach wizyjnych, raport - www.cameramonit.com"
+description: "Rynek systemów wizyjnych w zastosowaniach przemysłowych z wykorzystaniem AI"
+mermaid:
+  src: "mermaid.js"
+plugins:
+  - "jekyll-github-metadata"
+  - "jekyll-readme-index"
+readme_index:
+  enabled:          true
+  remove_originals: false
+  with_frontmatter: false
