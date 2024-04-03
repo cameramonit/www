@@ -3,7 +3,6 @@
 .orgs
 .projects
 .token
-
 # Logs
 logs
 *.log

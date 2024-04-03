@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # [Camera Monit](https://www.cameramonit.com/) - Rejestrator video z detekcją obiektów sterowany głosowo [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PL/HEAD.md)
 
@@ -510,3 +511,7 @@ Uczenie głębokie ma ogromny wpływ na rozwój detekcji obiektów
 
 ---
 + Modular Documentation made possible by the [FlatEdit](http://www.flatedit.com) project.
+=======
+# www
+www
+>>>>>>> 5d738d8 (Initial commit)
