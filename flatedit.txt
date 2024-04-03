@@ -1,0 +1,8 @@
+../docs/PL/HEAD.md
+../docs/PL/MENU.md
+../docs/PL/ABOUT.md
+../docs/PL/DETEKCJA.md
+../docs/PL/REFERENCES.md
+../docs/PEOPLE.md
+../docs/PL/STAR.md
+../docs/PL/FOOT.md
