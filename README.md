@@ -31,23 +31,50 @@
 
 ## Rozwiazanie [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PL/ABOUT.md)
 
-Wielu myśli, że chatGpt to rewolucja ... a co jeśli wykorzystamy różne kanały komunikacji głosowe i video, asnychroniczne i synchroniczne np. w celu zarządzania infrastrukturą od monitoringu po smarthome, komputery
+## cameraMonit.com: Głosowa komunikacja z systemem kamer
+
+1. Głosową komunikację kamer
+2. Eliminację fałszywych powiadomień
+3. Skupienie na przekazywaniu wyłącznie ważnych zdarzeń
+
+Wyobraź sobie system monitoringu, który nie tylko rejestruje obraz, ale również rozumie go i komunikuje się z Tobą. 
+
+cameraMonit.com rozmawia, analizuje i powiadamia wtedy gdy potrzebujesz, eliminując fałszywe alarmy.
 
 
-Wyobraź sobie rejestrator video z detekcją obiektów sterowany głosowo.
-Tak działa system skalowalnego monitoringu z setkami kamer w XXI wieku.
+### Inteligentny asystent kamer
+- Komunikacja głosowa i tekstowa
+- Możliwość zadawania pytań o zdarzenia z ostatnich 24 godzin
+- Interakcja jak z prawdziwym człowiekiem
 
-Sterowanie i komunikacja z kamerą jest możliwa przez popularny komunikator:
-+ signal
-+ whatsapp
-+ telegram
-  
-Asystent kamer będzie funckkjonował jak podczas rozmowy z osobą.
-Do dystopzycji jest chat tekstowy i głosowy oraz funkcja rozmowy video, gdzie będzie można wybrać kamerę którą chce się widzieć w czasie rzeczywistym.
+### Wielokanałowa komunikacja
+- Obsługa przez popularne komunikatory:
+ + Signal (dostępne od razu)
+ + WhatsApp (dostępne na życzenie)
+ + Telegram (dostępne na życzenie)
 
-Uzytkownik może po prostu rozmawiać lub pisać z asystentem poprzez przez swój komunikator.
-Aktualnie asystent, jest dostepny dla komunikatora signal z uwagi na bezpieczeństwo, ale będzie dostępny obsługa komunikatorów: whatsapp, telegram na życzenie.
+### Zaawansowane funkcje monitoringu
+- Detekcja obiektów
+- Sterowanie głosowe
+- Możliwość obsługi dziesiątek kamer
 
+### Różnorodne formy interakcji
+- Chat tekstowy
+- Komunikacja głosowa
+- Rozmowy video z podglądem wybranej kamery w czasie rzeczywistym
+
+### Bezpieczeństwo
+- Priorytetowe wykorzystanie komunikatora Signal ze względu na wysoki poziom szyfrowania
+
+## Korzyści
+
+- Intuicyjna obsługa systemu monitoringu
+- Szybki dostęp do informacji o zdarzeniach
+- Elastyczność w wyborze metody komunikacji
+- Możliwość rozbudowy systemu o setki kamer
+- Wysoki poziom bezpieczeństwa danych
+
+Odkryj nową erę monitoringu z cameraMonit.com - Twój inteligentny asystent jest zawsze gotowy do rozmowy!
 
 
 
