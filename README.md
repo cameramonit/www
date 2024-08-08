@@ -31,50 +31,42 @@
 
 ## Rozwiazanie [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PL/ABOUT.md)
 
-## cameraMonit.com: Głosowa komunikacja z systemem kamer
-
-1. Głosową komunikację kamer
-2. Eliminację fałszywych powiadomień
-3. Skupienie na przekazywaniu wyłącznie ważnych zdarzeń
+## [cameraMonit.com] to inteligentna głosowa komunikacja z wieloma kamerami
 
 Wyobraź sobie system monitoringu, który nie tylko rejestruje obraz, ale również rozumie go i komunikuje się z Tobą. 
-
-cameraMonit.com rozmawia, analizuje i powiadamia wtedy gdy potrzebujesz, eliminując fałszywe alarmy.
-
-
-### Inteligentny asystent kamer
-- Komunikacja głosowa i tekstowa
-- Możliwość zadawania pytań o zdarzenia z ostatnich 24 godzin
-- Interakcja jak z prawdziwym człowiekiem
-
-### Wielokanałowa komunikacja
-- Obsługa przez popularne komunikatory:
- + Signal (dostępne od razu)
- + WhatsApp (dostępne na życzenie)
- + Telegram (dostępne na życzenie)
-
-### Zaawansowane funkcje monitoringu
-- Detekcja obiektów
-- Sterowanie głosowe
-- Możliwość obsługi dziesiątek kamer
-
-### Różnorodne formy interakcji
-- Chat tekstowy
-- Komunikacja głosowa
-- Rozmowy video z podglądem wybranej kamery w czasie rzeczywistym
-
-### Bezpieczeństwo
-- Priorytetowe wykorzystanie komunikatora Signal ze względu na wysoki poziom szyfrowania
-
-## Korzyści
+[cameraMonit.com] rozmawia, analizuje i powiadamia wtedy gdy potrzebujesz, eliminując fałszywe alarmy.
 
 - Intuicyjna obsługa systemu monitoringu
-- Szybki dostęp do informacji o zdarzeniach
+- Głosowa szybkość dostęp do informacji o zdarzeniach
 - Elastyczność w wyborze metody komunikacji
-- Możliwość rozbudowy systemu o setki kamer
-- Wysoki poziom bezpieczeństwa danych
+- Rozbudowa systemu o dziesiątki kamer
+- Najwyższy poziom bezpieczeństwa danych
+- Zgodny z wytycznymi Artificial Intelligence Act
 
 Odkryj nową erę monitoringu z cameraMonit.com - Twój inteligentny asystent jest zawsze gotowy do rozmowy!
+
+Interakcja:
+- Głosowa i tekstowa komunikacja
+- Możliwość zadawania pytań o zdarzenia z ostatnich 24 godzin
+- Rozmowa video z podglądem wybranej kamery w czasie rzeczywistym *
+
+Uczenie:
+- Uczenie się nowych obiektów
+- Eliminacja fałszywych powiadomień
+  
+Powiadomienia:
+- Powiadomienia przez komunikator
+- Przekazywanie tylko istotnych zdarzeń
+
+Komunikatory:
+- Telegram 
+- Signal *
+- WhatsApp *
+
+
+*w przygotowaniu
+
+
 
 
 
