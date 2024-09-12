@@ -14,7 +14,7 @@
 + [Do.Camera - From Vision to Action](http://www.docamera.com)
 
 
-# [www.cameramonit.com](http://www.cameramonit.com)
+## [www.cameramonit.com](http://www.cameramonit.com)
 
 + [cameramonit.com](http://www.cameramonit.com)
 + [docs](http://docs.cameramonit.com)
@@ -74,6 +74,19 @@ Komunikatory:
 
 W odróżnieniu od aktualnych systemów oferujemy komunikację głosową do sterowania całą siecią kamer i wybranymi w czasie rzeczysitom oraz dostęp do archiwalnych nagrań.
 
+## Funkcje
+
+- Ciągła nauka lepszego rozpoznawania obiektów i incydentów
+- Rozmowa audio i video w czasie rzeczywistym
+- Powiadomienia o istotnych zdarzeniach przez popularne komunikatory
+
+## Korzyści
+
+- Eliminacja fałszywych alarmów
+- Łatwy dostęp do informacji 24/7
+- Pomoc prawna zintegrowana z systemem z teleoperator.app
+
+  
 
 ![wersja prototypowa cameramonit.com](https://github.com/cameramonit/www/assets/5669657/1c71e644-2dc9-4152-8ef3-7acb7bc97ef3)
 wersja prototypowa cameramonit.com
