@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CameraMonit - ROI Calculator</title>
+    <meta name="description"
+          content="Calculate your potential savings with CameraMonit's intelligent video surveillance system.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .calculator-page {
+            padding: 120px 0 80px;
+            background-color: var(--light-color);
+        }
+
+        .calculator-wrapper {
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .calculator-intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .calculator-intro h1 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .calculator-form {
+            margin-bottom: 40px;
+        }
+
+        .calculator-details {
+            background-color: var(--light-color);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            margin-top: 40px;
+        }
+
+        .details-title {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .detail-item {
+            margin-bottom: 20px;
+        }
+
+        .detail-item h3 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.1rem;
+        }
+
+        .detail-item i {
+            color: var(--secondary-color);
+        }
+
+        .calculator-summary {
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: var(--border-radius);
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        .calculator-summary h3 {
+            color: white;
+            text-align: center;
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .summary-item {
+            text-align: center;
+        }
+
+        .summary-item .value {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--accent-color);
+        }
+
+        .result-actions {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .calculator-wrapper {
+                padding: 20px;
+            }
+
+            .summary-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- Header & Navigation -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="images/cameramonit-logo.png" alt="CameraMonit Logo">
+            <h1>CameraMonit</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#solution">Solution</a></li>
+                <li><a href="index.html#use-cases">Use Cases</a></li>
+                <li><a href="index.html#benefits">Benefits</a></li>
+                <li><a href="calculator.html" class="active">ROI Calculator</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- Calculator Section -->
+<section class="calculator-page">
+    <div class="container">
+        <div class="calculator-wrapper">
+            <div class="calculator-intro">
+                <h1>Security ROI Calculator</h1>
+                <p>See how much you can save by implementing CameraMonit's intelligent video surveillance system.</p>
+            </div>
+
+            <div class="calculator-form">
+                <div class="form-group">
+                    <label for="num-cameras">Number of Cameras:</label>
+                    <input type="number" id="num-cameras" min="1" value="10">
+                </div>
+                <div class="form-group">
+                    <label for="false-alarms">Average Daily False Alarms:</label>
+                    <input type="number" id="false-alarms" min="0" value="15">
+                    <small>Traditional motion detection cameras typically generate 100-150 false alarms per day</small>
+                </div>
+                <div class="form-group">
+                    <label for="staff-cost">Security Staff Hourly Cost ($):</label>
+                    <input type="number" id="staff-cost" min="0" value="20">
+                </div>
+                <div class="form-group">
+                    <label for="incident-time">Average Minutes to Verify an Alarm:</label>
+                    <input type="number" id="incident-time" min="1" value="5">
+                </div>
+                <button id="calculate-roi" class="btn btn-primary">Calculate Savings</button>
+            </div>
+
+            <div class="calculator-results" id="results-section" style="display: none;">
+                <div class="calculator-summary">
+                    <h3>Your Potential Savings with CameraMonit</h3>
+                    <div class="summary-grid">
+                        <div class="summary-item">
+                            <div class="value" id="hours-saved">0</div>
+                            <p>Monthly Hours Saved</p>
+                        </div>
+                        <div class="summary-item">
+                            <div class="value" id="cost-savings">$0</div>
+                            <p>Monthly Cost Savings</p>
+                        </div>
+                        <div class="summary-item">
+                            <div class="value" id="annual-savings">$0</div>
+                            <p>Annual Cost Savings</p>
+                        </div>
+                        <div class="summary-item">
+                            <div class="value" id="roi-months">0</div>
+                            <p>ROI in Months</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calculator-details">
+                    <h3 class="details-title">How CameraMonit Reduces False Alarms</h3>
+                    <div class="detail-item">
+                        <h3><i class="fas fa-brain"></i> AI-Powered Object Detection</h3>
+                        <p>Our intelligent system can distinguish between different objects like people, vehicles, and
+                            animals with 99% accuracy, dramatically reducing false alarms.</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3><i class="fas fa-bell-slash"></i> Smart Notification Filtering</h3>
+                        <p>CameraMonit filters out non-threatening movements such as shadows, rain, or small animals
+                            that typically trigger false alarms.</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3><i class="fas fa-clock"></i> Continuous Learning</h3>
+                        <p>Our system learns from each interaction, continuously improving its accuracy and further
+                            reducing false alarms over time.</p>
+                    </div>
+                </div>
+
+                <div class="result-actions">
+                    <a href="index.html#contact" class="btn btn-primary">Request a Demo</a>
+                    <button id="recalculate-btn" class="btn btn-secondary">Recalculate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <img src="images/cameramonit-logo.png" alt="CameraMonit Logo">
+                    <h3>CameraMonit</h3>
+                </div>
+                <p>Intelligent voice-controlled camera monitoring for enhanced security and real-time threat
+                    detection.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#solution">Solution</a></li>
+                    <li><a href="index.html#use-cases">Use Cases</a></li>
+                    <li><a href="index.html#benefits">Benefits</a></li>
+                    <li><a href="calculator.html">ROI Calculator</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Solutions</h3>
+                <ul>
+                    <li><a href="#">Object Detection</a></li>
+                    <li><a href="#">Voice Control</a></li>
+                    <li><a href="#">Smart Notifications</a></li>
+                    <li><a href="#">Fire Detection</a></li>
+                    <li><a href="#">Weapon Detection</a></li>
+                    <li><a href="#">People Counting</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p>123 Security Avenue<br>Tech District, Smart City 12345</p>
+                <p>Email: <a href="mailto:info@cameramonit.com">info@cameramonit.com</a></p>
+                <p>Phone: <a href="tel:+12345678901">+1 (234) 567-8901</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 CameraMonit. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Cookies</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="js/scripts.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const calculateBtn = document.getElementById('calculate-roi');
+        const resultsSection = document.getElementById('results-section');
+        const recalculateBtn = document.getElementById('recalculate-btn');
+
+        if (calculateBtn) {
+            calculateBtn.addEventListener('click', function () {
+                calculateROI();
+                resultsSection.style.display = 'block';
+                // Scroll to results
+                setTimeout(() => {
+                    resultsSection.scrollIntoView({behavior: 'smooth'});
+                }, 100);
+            });
+        }
+
+        if (recalculateBtn) {
+            recalculateBtn.addEventListener('click', function () {
+                // Scroll back to form
+                document.querySelector('.calculator-form').scrollIntoView({behavior: 'smooth'});
+            });
+        }
+
+        function calculateROI() {
+            const numCameras = parseInt(document.getElementById('num-cameras').value) || 0;
+            const falseAlarms = parseInt(document.getElementById('false-alarms').value) || 0;
+            const staffCost = parseFloat(document.getElementById('staff-cost').value) || 0;
+            const incidentTime = parseInt(document.getElementById('incident-time').value) || 0;
+
+            // Calculate the results
+            // Each false alarm takes X minutes to verify
+            const dailyMinutesSaved = falseAlarms * incidentTime;
+            const monthlyHoursSaved = (dailyMinutesSaved * 30) / 60;
+            const monthlyCostSavings = monthlyHoursSaved * staffCost;
+            const annualCostSavings = monthlyCostSavings * 12;
+
+            // Assuming a cost of $50 per camera per month for CameraMonit service
+            const monthlyCost = numCameras * 50;
+            const roiMonths = monthlyCost > 0 ? Math.ceil(monthlyCost / monthlyCostSavings) : 0;
+
+            // Update the results
+            document.getElementById('hours-saved').textContent = monthlyHoursSaved.toFixed(1);
+            document.getElementById('cost-savings').textContent = '$' + monthlyCostSavings.toFixed(2);
+            document.getElementById('annual-savings').textContent = '$' + annualCostSavings.toFixed(2);
+            document.getElementById('roi-months').textContent = roiMonths;
+
+            // Animate the numbers
+            animateValue('hours-saved', 0, monthlyHoursSaved, 1000);
+            animateValue('cost-savings', 0, monthlyCostSavings, 1000, true);
+            animateValue('annual-savings', 0, annualCostSavings, 1000, true);
+            animateValue('roi-months', 0, roiMonths, 1000);
+        }
+
+        function animateValue(id, start, end, duration, isCurrency = false) {
+            const obj = document.getElementById(id);
+            const range = end - start;
+            const minTimer = 50;
+            let stepTime = Math.abs(Math.floor(duration / range));
+
+            stepTime = Math.max(stepTime, minTimer);
+
+            const startTime = new Date().getTime();
+            const endTime = startTime + duration;
+            let timer;
+
+            function run() {
+                const now = new Date().getTime();
+                const remaining = Math.max((endTime - now) / duration, 0);
+                const value = Math.round(end - (remaining * range));
+
+                if (isCurrency) {
+                    obj.textContent = '$' + value.toFixed(2);
+                } else {
+                    obj.textContent = value.toFixed(1);
+                }
+
+                if (value === end) {
+                    clearInterval(timer);
+                }
+            }
+
+            timer = setInterval(run, stepTime);
+            run();
+        }
+    });
+
+    /**
+     * CameraMonit Advanced ROI Calculator
+     * This script provides detailed ROI calculations for the CameraMonit security system
+     */
+
+    class SecurityROICalculator {
+        constructor() {
+            // Default values
+            this.defaultValues = {
+                numCameras: 10,
+                falseAlarms: 15,
+                staffCost: 20,
+                incidentTime: 5,
+                implementationCost: 50, // Per camera per month
+                reductionRate: 0.95, // 95% reduction in false alarms
+                responseEfficiency: 0.65, // 65% improvement in response efficiency
+                additionalSavings: 0.15 // 15% additional operational savings
+            };
+
+            // Results storage
+            this.results = {};
+        }
+
+        /**
+         * Calculate the ROI based on input values
+         * @param {Object} inputs - User input values
+         * @returns {Object} Calculated results
+         */
+        calculate(inputs = {}) {
+            // Merge defaults with user inputs
+            const values = {...this.defaultValues, ...inputs};
+
+            // Basic calculations
+            const dailyFalseAlarms = values.falseAlarms;
+            const dailyMinutesSaved = dailyFalseAlarms * values.incidentTime;
+            const monthlyHoursSaved = (dailyMinutesSaved * 30) / 60;
+            const monthlyCostSavings = monthlyHoursSaved * values.staffCost;
+            const annualCostSavings = monthlyCostSavings * 12;
+
+            // Implementation costs
+            const monthlyCost = values.numCameras * values.implementationCost;
+            const annualCost = monthlyCost * 12;
+
+            // ROI calculations
+            const roiMonths = monthlyCost > 0 ? Math.ceil(monthlyCost / monthlyCostSavings) : 0;
+            const firstYearROI = ((annualCostSavings - annualCost) / annualCost) * 100;
+            const threeYearROI = ((annualCostSavings * 3 - annualCost * 3) / (annualCost * 3)) * 100;
+
+            // Additional benefits
+            const responseTimeSavings = values.staffCost * values.responseEfficiency * monthlyHoursSaved;
+            const operationalSavings = monthlyCostSavings * values.additionalSavings;
+            const totalMonthlySavings = monthlyCostSavings + responseTimeSavings + operationalSavings;
+            const totalAnnualSavings = totalMonthlySavings * 12;
+
+            // Five-year projection
+            const fiveYearCost = annualCost * 5;
+            const fiveYearSavings = totalAnnualSavings * 5;
+            const fiveYearNetSavings = fiveYearSavings - fiveYearCost;
+
+            // Store and return results
+            this.results = {
+                basicResults: {
+                    monthlyHoursSaved,
+                    monthlyCostSavings,
+                    annualCostSavings,
+                    roiMonths,
+                    firstYearROI,
+                    threeYearROI
+                },
+                advancedResults: {
+                    falseAlarmReduction: dailyFalseAlarms * values.reductionRate,
+                    responseTimeSavings,
+                    operationalSavings,
+                    totalMonthlySavings,
+                    totalAnnualSavings
+                },
+                projections: {
+                    fiveYearCost,
+                    fiveYearSavings,
+                    fiveYearNetSavings
+                }
+            };
+
+            return this.results;
+        }
+
+        /**
+         * Generate a detailed report of savings and benefits
+         * @returns {String} HTML formatted report
+         */
+        generateReport() {
+            if (Object.keys(this.results).length === 0) {
+                return '<p>Please calculate results first.</p>';
+            }
+
+            const {basicResults, advancedResults, projections} = this.results;
+
+            return `
+            <div class="report-section">
+                <h3>Basic ROI Summary</h3>
+                <div class="report-grid">
+                    <div class="report-item">
+                        <div class="item-label">Monthly Hours Saved</div>
+                        <div class="item-value">${basicResults.monthlyHoursSaved.toFixed(1)} hours</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">Monthly Cost Savings</div>
+                        <div class="item-value">$${basicResults.monthlyCostSavings.toFixed(2)}</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">Annual Cost Savings</div>
+                        <div class="item-value">$${basicResults.annualCostSavings.toFixed(2)}</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">ROI Timeframe</div>
+                        <div class="item-value">${basicResults.roiMonths} months</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">First Year ROI</div>
+                        <div class="item-value">${basicResults.firstYearROI.toFixed(1)}%</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">Three Year ROI</div>
+                        <div class="item-value">${basicResults.threeYearROI.toFixed(1)}%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="report-section">
+                <h3>Additional Benefits</h3>
+                <div class="report-grid">
+                    <div class="report-item">
+                        <div class="item-label">Daily False Alarm Reduction</div>
+                        <div class="item-value">${advancedResults.falseAlarmReduction.toFixed(1)} incidents</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">Response Efficiency Savings</div>
+                        <div class="item-value">$${advancedResults.responseTimeSavings.toFixed(2)}/month</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">Operational Savings</div>
+                        <div class="item-value">$${advancedResults.operationalSavings.toFixed(2)}/month</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">Total Monthly Savings</div>
+                        <div class="item-value">$${advancedResults.totalMonthlySavings.toFixed(2)}</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">Total Annual Savings</div>
+                        <div class="item-value">$${advancedResults.totalAnnualSavings.toFixed(2)}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="report-section">
+                <h3>5-Year Projection</h3>
+                <div class="report-grid">
+                    <div class="report-item">
+                        <div class="item-label">5-Year System Cost</div>
+                        <div class="item-value">$${projections.fiveYearCost.toFixed(2)}</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">5-Year Total Savings</div>
+                        <div class="item-value">$${projections.fiveYearSavings.toFixed(2)}</div>
+                    </div>
+                    <div class="report-item">
+                        <div class="item-label">5-Year Net Savings</div>
+                        <div class="item-value">$${projections.fiveYearNetSavings.toFixed(2)}</div>
+                    </div>
+                </div>
+            </div>
+        `;
+        }
+
+        /**
+         * Generate chart data for visualizing savings
+         * @returns {Object} Chart data configuration
+         */
+        generateChartData() {
+            if (Object.keys(this.results).length === 0) {
+                return null;
+            }
+
+            const {advancedResults, projections} = this.results;
+
+            // Annual projections for 5 years
+            const yearlyData = [];
+            let cumulativeSavings = 0;
+            let cumulativeCost = 0;
+
+            for (let year = 1; year <= 5; year++) {
+                const yearlyCost = projections.fiveYearCost / 5;
+                const yearlySavings = projections.fiveYearSavings / 5;
+
+                cumulativeCost += yearlyCost;
+                cumulativeSavings += yearlySavings;
+
+                yearlyData.push({
+                    year: `Year ${year}`,
+                    cost: yearlyCost,
+                    savings: yearlySavings,
+                    netSavings: yearlySavings - yearlyCost,
+                    cumulativeCost: cumulativeCost,
+                    cumulativeSavings: cumulativeSavings,
+                    cumulativeNetSavings: cumulativeSavings - cumulativeCost
+                });
+            }
+
+            // Monthly breakdown for first year
+            const monthlyData = [];
+            const monthlyCost = projections.fiveYearCost / 60; // 5 years = 60 months
+            const monthlySavings = advancedResults.totalMonthlySavings;
+
+            for (let month = 1; month <= 12; month++) {
+                monthlyData.push({
+                    month: `Month ${month}`,
+                    cost: monthlyCost,
+                    savings: monthlySavings,
+                    netSavings: monthlySavings - monthlyCost,
+                    cumulativeCost: monthlyCost * month,
+                    cumulativeSavings: monthlySavings * month,
+                    cumulativeNetSavings: (monthlySavings * month) - (monthlyCost * month)
+                });
+            }
+
+            // Return data for different chart types
+            return {
+                yearlyData,
+                monthlyData,
+                breakdownData: [
+                    {name: 'Staff Time Savings', value: advancedResults.monthlyCostSavings * 12},
+                    {name: 'Response Efficiency', value: advancedResults.responseTimeSavings * 12},
+                    {name: 'Operational Savings', value: advancedResults.operationalSavings * 12}
+                ]
+            };
+        }
+    }
+
+    // Export the calculator for use in other scripts
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = SecurityROICalculator;
+    } else {
+        // For browser use
+        window.SecurityROICalculator = SecurityROICalculator;
+    }
+
+</script>
+</body>
+</html>
