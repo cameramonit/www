@@ -6,32 +6,32 @@
 
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/cameramonit/python) [![GitHub stars](https://img.shields.io/github/stars/cameramonit/www.svg?style=flat&label=Star)](https://github.com/cameramonit/python/stargazers) [![GitHub forks](https://img.shields.io/github/forks/cameramonit/www.svg?style=flat&label=Fork)](https://github.com/cameramonit/python/fork) [![GitHub watchers](https://img.shields.io/github/watchers/cameramonit/www.svg?style=flat&label=Watch)](https://github.com/cameramonit/python/watchers) [![GitHub followers](https://img.shields.io/github/followers/cameramonit.svg?label=Follow)](https://github.com/cameramonit) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcameramonit%2Fwww&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
 
-## Menu [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PL/MENU.md)
+## Oferta [Telemonit](http://www.telemonit.com) [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PL/MENU.md)
 
-+ [CameraMonit - Surveillance Integration](http://www.cameramonit.com)
-+ [VoCo.Cam - Voice Controlled Camera](http://www.vococam.com)
-+ [CameraMind - Detection and Notification](http://www.cameramind.com)
-+ [Do.Camera - From Vision to Action](http://www.docamera.com)
++ [CameraMonit - Integracja z nadzorą](http://www.cameramonit.com)
++ [VoCo.Cam - Kamera z kontrolą głosem](http://www.vococam.com)
++ [CameraMind - Wykrywanie i ostrzeganie](http://www.cameramind.com)
++ [Do.Camera - Od wizji do działania](http://www.docamera.com)
 
 
-## [www.cameramonit.com](http://www.cameramonit.com)
+## Rozwiązanie [www.cameramonit.com](http://www.cameramonit.com)
 
 + [cameramonit.com](http://www.cameramonit.com)
-+ [docs](http://docs.cameramonit.com)
++ [dokumentacja](http://docs.cameramonit.com)
 + [logo](http://logo.cameramonit.com)
 + [roadmap](http://roadmap.cameramonit.com)
-+ [identity](http://identity.cameramonit.com)
-+ [contribution](http://contribution.softreck.dev)
++ [identyfikator](http://identity.cameramonit.com)
++ [współpraca](http://współpraca.softreck.dev)
 
----
 
-+ [issue](https://github.com/cameramonit/www/issues/new)
-+ [edit](https://github.com/cameramonit/www/edit/main/README.md)
-+ [git](https://github.com/cameramonit/)
+## [WSPÓŁPRACA](http://współpraca.softreck.dev) zawsze jest mile widziana:
 
-## Rozwiazanie [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PL/ABOUT.md)
++ Znalazłeś [problem lub błąd](https://github.com/cameramonit/docs/issues/new)?
++ Czy chcesz [poprawić artykuł](https://github.com/cameramonit/docs/edit/main/README.md)?
++ Czy interesuje Cię współpraca przy innych [projektach git](https://github.com/cameramonit/)?
++ Czy masz co dołożyć lub rozmawiać? [Otwórz pull request](https://github.com/cameramonit/docs/pulls) lub [stwórz problem](https://github.com/cameramonit/docs/issues).
 
-## [cameraMonit.com] to inteligentna głosowa komunikacja z wieloma kamerami
+## [cameraMonit.com] to inteligentna głosowa komunikacja z wieloma kamerami [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PL/ABOUT.md)
 
 Wyobraź sobie system monitoringu, który nie tylko rejestruje obraz, ale również rozumie go i komunikuje się z Tobą. 
 [cameraMonit.com] rozmawia, analizuje i powiadamia wtedy gdy potrzebujesz, eliminując fałszywe alarmy.
@@ -64,29 +64,105 @@ Komunikatory:
 - WhatsApp *
 
 
-*w przygotowaniu
+* w przygotowaniu
+
+
+
+## Rozwiazanie
+
+Dlaczego CCTV z użyciem ML jest przełomem?
+
+Bo pozwala za pomocą danych z jednego systemu stworzyć, system:
+
+- alarmowy
+
+- dostępu
+
+- ostrzegania o incydentach: pożarze, kradzieży, ...
 
 
 
 
+Zastosowanie uczenia maszynowego #ML w systemach monitoringu wizyjnego #CCTV pozwala na implementację systemu alarmowowego, kontroli dostępu, ostrzegania o incydentach: pożarze, kradzieży, ...
+
+
+Interesuje mnie:
++ Analiza zachowań, incydentów
++ Rozpoznawanie obiektów, twarzy
++ Zarządzanie dostępem
++ ... odp. w komentarzu
+
+
+Zastosowanie uczenia maszynowego (ML, od ang. Machine Learning) w systemach monitoringu wizyjnego (CCTV) przynosi przełom, ponieważ 
+znacząco rozszerza możliwości tradycyjnych systemów CCTV, przekształcając je z prostych narzędzi rejestrujących w inteligentne systemy wspierające decyzje i reagowanie na zdarzenia w czasie rzeczywistym. Oto kilka kluczowych sfery, gdzie zastosowanie ML w CCTV jest przełomowe:
+
+### System Alarmowy
+- **Detekcja Nietypowych Zdarzeń**: Systemy mogą być trenowane do rozpoznawania nietypowych wzorców lub zachowań, które mogą sugerować zagrożenie, np. osoba wchodząca do budynku w nietypowych godzinach.
+- **Natychmiastowa Reakcja**: Możliwość ustawienia automatycznych alarmów w przypaku wykrycia określonych zdarzeń, co pozwala na szybsze reagowanie przez służby bezpieczeństwa.
+
+### Kontrola Dostępu
+- **Rozpoznawanie Twarzy**: Wykorzystanie ML do identyfikacji osób za pomocą rozpoznawania twarzy oferuje bardziej zaawansowane i bezpieczne formy kontroli dostępu, niezależne od tradycyjnych metod jak karty dostępu czy kody PIN.
+- **Detekcja Autoryzacji**: Możliwość detekcji obecności osób nieautoryzowanych w restrykcyjnych strefach i automatyczne generowanie powiadomień.
+
+### Ostrzeganie o Incydentach
+- **Detekcja Pożaru i Dymu**: Systemy ML mogą być trenowane do rozpoznawania oznak dymu i ognia na wczesnym etapie, co umożliwia szybką ewakuację i reakcję przeciwpożarową.
+- **Rozpoznawanie Niebezpiecznych Przedmiotów**: Identyfikacja pozostawionych bagażów lub innych przedmiotów, które mogą stanowić zagrożenie, takie jak niebezpieczne materiały.
+
+### Zalety Ogólne
+- **Zmniejszenie Fałszywych Alarmów**: Dzięki zdolności do nauki i rozpoznawania złożonych wzorców, systemy ML mogą redukować liczbę fałszywych alarmów, zwiększając skuteczność monitoringu.
+- **Optymalizacja Zasobów**: Automatyzacja detekcji zdarzeń pozwala optymalizować zasoby ludzkie, koncentrując uwagę personelu na sytuacjach wymagających interwencji.
+- **Analiza Wideo w Czasie Rzeczywistym**: Przetwarzanie i analiza strumieni wideo w czasie rzeczywistym umożliwia natychmiastowe reagowanie na wykryte zagrożenia czy incydenty.
+
+Integracja ML z systemami CCTV wnosi zatem gigantyczne ulepszenie w zakresie monitoringu i bezpieczeństwa, przekształcając pasywne nagrywanie w aktywną, inteligentną analizę pozwalającą na znaczące zwiększenie efektywności operacyjnej i bezpieczeństwa ogólnego.
+
+
+
+Monitoring wizyjny (CCTV) z wykorzystaniem sztucznej inteligencji (ML) to przełomowe połączenie.
+Pozwala na wykorzystanie danych z jednego systemu do stworzenia różnych funkcjonalności, takich jak:
+- System alarmowy: Dzięki analizie obrazów i wykrywaniu nieprawidłowości, system może automatycznie generować alarmy w przypadku podejrzanych zdarzeń, takich jak nieautoryzowany dostęp czy ruch w zakazanej strefie .
+- System kontroli dostępu: ML może pomóc w identyfikacji osób na podstawie obrazów z kamer, umożliwiając dostęp tylko uprawnionym użytkownikom. To zwiększa bezpieczeństwo i ułatwia zarządzanie dostępem do chronionych obszarów .
+- Ostrzeganie o incydentach: System może automatycznie wykrywać potencjalne zagrożenia, takie jak pożar, kradzież lub inne awarie. Dzięki temu personel otrzymuje szybkie powiadomienia, co pozwala na natychmiastowe działania .
+  Historia monitoringu wizyjnego sięga ubiegłego stulecia, ale dzisiejsze technologie znacznie różnią się od tych sprzed lat. Wcześniejsze kamery nie miały opcji jednoczesnego rejestrowania i przeglądania zdarzeń, co jest teraz standardem .
+  Warto podkreślić, że połączenie ML z monitoringiem wizyjnym otwiera nowe możliwości i zwiększa efektywność systemów bezpieczeństwa.
+
+
+
+Wielu myśli, że chatGpt to rewolucja ... a co jeśli wykorzystamy różne kanały komunikacji głosowe i video, asnychroniczne i synchroniczne np. w celu zarządzania infrastrukturą od monitoringu po smarthome, komputery
+
+
+Wyobraź sobie rejestrator video z detekcją obiektów sterowany głosowo.
+Tak działa system skalowalnego monitoringu z setkami kamer w XXI wieku.
+
+Sterowanie i komunikacja z kamerą jest możliwa przez popularny komunikator:
++ signal
++ whatsapp
++ telegram
+  
+Asystent kamer będzie funkcjonował jak podczas rozmowy z osobą.
+Do dystopzycji jest chat tekstowy i głosowy oraz funkcja rozmowy video, gdzie będzie można wybrać kamerę którą chce się widzieć w czasie rzeczywistym.
+
+Uzytkownik może po prostu rozmawiać lub pisać z asystentem poprzez przez swój komunikator.
+Aktualnie asystent, jest dostepny dla komunikatora signal z uwagi na bezpieczeństwo, ale będzie dostępny obsługa komunikatorów: whatsapp, telegram na życzenie.
+
+
+### CameraMonit
+Lider w usługach Zdalnego Dozoru Wizyjnego. Wymieniamy ochronę fizyczną na System Ochrony Wizyjnej znacznie podnosząc bezpieczeństwo obiektów przy okazji redukując wysokie koszty.
+
+Koncentrujemy się na dostarczaniu nowoczesnych rozwiązań informatycznych w obszarze szeroko rozumianego bezpieczeństwa dla:
+
+- stacji monitorowania alarmów
+- stacji zdalnego dozoru wideo
+- firm ochrony osób i mienia 
+- banków i firmy o charakterze globalnym
+- sieci handlowych, gastronomicznych i usługowych
+- infrastruktury energetycznej, telekomunikacyjnej i paliwowej
+
+Zapraszamy do współpracy
 
 ### Co wyróżnia CameraMonit?
 
 W odróżnieniu od aktualnych systemów oferujemy komunikację głosową do sterowania całą siecią kamer i wybranymi w czasie rzeczysitom oraz dostęp do archiwalnych nagrań.
 
-## Funkcje
-
-- Ciągła nauka lepszego rozpoznawania obiektów i incydentów
-- Rozmowa audio i video w czasie rzeczywistym
-- Powiadomienia o istotnych zdarzeniach przez popularne komunikatory
-
-## Korzyści
-
-- Eliminacja fałszywych alarmów
-- Łatwy dostęp do informacji 24/7
-- Pomoc prawna zintegrowana z systemem z teleoperator.app
-
-  
 
 ![wersja prototypowa cameramonit.com](https://github.com/cameramonit/www/assets/5669657/1c71e644-2dc9-4152-8ef3-7acb7bc97ef3)
 wersja prototypowa cameramonit.com
@@ -196,10 +272,6 @@ Offer
 It provides free rolling 3-day cycled cloud storage that you can enjoy storage service without any subscription. And it provides a 30-day free trial of advanced features that include AI recognition, upgraded cloud memory, custom alert areas and etc, the advanced features starts at $2.99 per month after 30 days free trial. 
 
 
-# docs.cameramonit.com
-
-
-## Rozwiązanie
 
 ### Kamery, dziedzina, branża
 
@@ -467,6 +539,32 @@ MiniPC: MiniPC jest podłączony do switcha. Może to być komputer jednopłytko
 Router: MiniPC jest następnie podłączony do routera, który zapewnia dostęp do Internetu. Router może obsługiwać zarówno przewodowe, jak i bezprzewodowe połączenia.
 Oto graficzne przedstawienie tego układu:
 
+
+
+
+
+
+
+## Podsumowanie
+
+Chciałbym sprzedawać aplikacje na android do podglądu kamer z inteligentnym powiadamianiem o incydentach w oparciu o sztuczną inteligencję. 
+Aplikacja nazywa się CameraMonit od konkurencji wyróżniają ją funkcje:
+1.  Głosowa komunikacja z systemem nadzoru, bez potrzeby zaglądania do aplikacji, wystarczy tylko głosowa komenda jak w rozmowie z inteligentnym asystentem
+2. Komunikacja z aplikacją poprzez integrację z komunikatorami takimi jak signal, telegram, whatsup
+3. Aplikacja Android nie wymaga komunikacji z zewnętrznymi serwerami, możliwa jest praca offline bez internetu
+
+
+Sprzedaż i dystrybucja dotyczy głównie klientów biznesowych, którzy będą zainteresowani nie tylko wykorzystaniem tej aplikacji np w biurze czy w domu, ale też będą chcieli bardziej zaawansowane centrum obliczeniowe do kontroli wejścia i wyjścia osób w obiekcie a także alarmowania incydentów jak pożar, kradzieź, dewastacja majątku.
+Z naciskiem na obliczenia i ulepszone modele rozpoznawnia obiektow, ktore potem bede rowniez sprzedawal.
+
+Finansowanie samego pomysłu nie jest konieczne a jedynie socjalne utrzymanie w celu wyprodukowania kolejnych ulepszonych wersji aplikacji w ciągu 3 miesięcy i jej sprzedaży na rynku Europejskim w marketplace google play i apple store.
+
+Koszt pojedynczej aplikacji będzie na początku 20$ (marża google 20%).
+Podobne aplikacje na dzień dzisiejszy są w cenie 5$ i  mają ponad 100 tysięcy pobrań. Jednak żadna z nich nie oferuje funkcji, które będzie miała moja aplikacja.
+
+Będę kontaktował się bezpośrednio z instalatorami systemów alarmowych, CCTV, monitoringu infrastruktury w fabrykach i firmach, by zaproponować partnertswo i dystrybucję w oparciu o do 20-40% marży dla nich.
+Będę również prowadził spotkania, prowadzil bloga i wystepowal na branzowych konferencjach jako ekpsert w celu promocji tej aplikacji a potem kolejnych uslug.
+
  [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PL/DETEKCJA.md)
 ## Czym jest Object Recognition?
 
@@ -511,8 +609,9 @@ Uczenie głębokie ma ogromny wpływ na rozwój detekcji obiektów
 + Automated scripts [www.apimacro.com](https://www.apimacro.com/)
 + DSL language [apidsl.com](https://apidsl.com/)
 
- [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PEOPLE.md)
+## People [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PL/PEOPLE.md)
 
++ [Tom Sapletta - DevOps](http://tom.sapletta.com)
 
 ## Star History [<span style='font-size:20px;'>&#x270D;</span>](git@github.com:cameramonit/www/edit/main/../docs/PL/STAR.md)
 
